@@ -10,25 +10,20 @@
     </parent>
     <groupId>pl.excellentapp.spring.state-machine</groupId>
     <artifactId>spring-state-machine</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>spring-state-machine</name>
     <description>spring-state-machine</description>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
+
     <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
+        <url>https://github.com/pionas/spring-state-machine</url>
+        <connection>scm:git:https://github.com/pionas/spring-state-machine.git</connection>
+        <developerConnection>scm:git:https://github.com/pionas/spring-state-machine.git</developerConnection>
     </scm>
+
     <properties>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -38,7 +33,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
